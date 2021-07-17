@@ -71,3 +71,5 @@ cd
 ##Install Icarus iverilog
 sudo apt-get install -y iverilog --assume-yes
 sudo apt install gtkwave --assume-yes
+
+cd
