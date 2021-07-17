@@ -1,6 +1,9 @@
 # openlane
 Follow the following steps to install open source EDA tools
 
-1. open terminal and type cd and then press enter
+1. open the terminal and type cd and then press enter
 2. then type sudo apt install git --assume-yes
-3. then type git clone git@github.com:mdzakirhussain/openlane.git
+3. then type git clone https://github.com/mdzakirhussain/openlane.git
+4. then type cd openlane
+5. sudo chmod 777 toolsinstallation.sh
+6. then type ./toolsinstallation.sh
