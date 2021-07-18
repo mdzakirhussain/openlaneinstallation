@@ -9,12 +9,15 @@ sudo apt-get install libcairo2-dev --assume-yes
 sudo apt-get install mesa-common-dev libglu1-mesa-dev --assume-yes
 sudo apt-get install libncurses-dev --assume-yes
 ##sudo apt install git --assume-yes
+cd
+mkdir magic
+cd magic
 git clone https://github.com/RTimothyEdwards/magic.git
 cd magic/
 ./configure 
 sudo make
 sudo make install
-cd
+cd ../../
 
 ##yosys – Yosys Open SYnthesis Suite - Installation
 
@@ -23,14 +26,17 @@ sudo apt-get install build-essential clang bison flex \
 	graphviz xdot pkg-config python3 libboost-system-dev \
 	libboost-python-dev libboost-filesystem-dev zlib1g-dev --assume-yes
 	
+cd
+mkdir yosys
+cd yosys	
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys/
 sudo make
 sudo make install
-cd
+cd ../../
 
 ##Docker installation
-
+cd
 sudo apt-get remove docker docker-engine docker.io containerd runc --assume-yes
 sudo apt-get update --assume-yes
 sudo apt-get install \
@@ -46,6 +52,10 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update --assume-yes
 sudo apt-get install docker-ce docker-ce-cli containerd.io --assume-yes
+
+cd
+mkdir openlane
+cd openlane
 git clone https://github.com/efabless/openlane.git
 cd openlane/
 sudo make openlane
@@ -53,9 +63,12 @@ sudo make openlane
     #export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks will reside>
 sudo make pdk
 sudo make test # This is to test that the flow and the pdk were properly installed
+cd ../../
     
 ###openSTA installation
 cd
+mkdir opensta
+cd opensta
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
@@ -66,9 +79,11 @@ sudo apt-get install -y swig --assume-yes
 cmake ..
 sudo make
 sudo make install
-cd
+cd ../../../
+
 
 ##Install Icarus iverilog
 sudo apt-get install -y iverilog --assume-yes
 sudo apt install gtkwave --assume-yes
 cd
+echo "Installation Completed"
