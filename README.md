@@ -8,4 +8,4 @@ Follow the following steps to install open source EDA tools
 5. then type git clone https://github.com/mdzakirhussain/openlaneinstallation.git
 6. then type cd openlaneinstallation
 7. then type chmod 777 toolsinstallation.sh
-8. then type ./toolsinstallation.sh
+8. then type sudo ./toolsinstallation.sh
