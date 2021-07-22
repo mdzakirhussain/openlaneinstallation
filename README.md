@@ -12,7 +12,7 @@ Follow the following steps to install open source EDA tools
 
 <h4>All the above steps needs to be run in UBUNTU Machine's terminal. Following are the readily accessible resources. If you face any issues please contact me at</h4>
 
-<ul><li>Email: zakir.hussain.work@gmail.com</li><br><b>OR</b><br/><li>Mobile:+919949426362</li></ul>
+<ul><li>Email: zakir.hussain.work@gmail.com</li><br><b>OR</b><li><br>Mobile:+919949426362</li></ul>
 
 <a href="https://drive.google.com/drive/folders/1AfyLbUMrOOjMRa-fI9xr9lEOX8y7B3S7?usp=sharing">Download Virtualmachine UBUNTU</a>
 
