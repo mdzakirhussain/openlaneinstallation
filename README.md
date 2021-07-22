@@ -9,3 +9,9 @@ Follow the following steps to install open source EDA tools
 6. then type cd openlaneinstallation
 7. then type chmod 777 toolsinstallation.sh
 8. then type sudo ./toolsinstallation.sh
+
+<a href="https://drive.google.com/drive/folders/1AfyLbUMrOOjMRa-fI9xr9lEOX8y7B3S7?usp=sharing">Download Virtualmachine UBUNTU</a>
+
+<a href="https://drive.google.com/file/d/19xzfCOasAnaMo3Ko1gZnNpvf6HuQ2pyY/view">Download Oracle VM Virtualbox</a>
+
+<a href="https://drive.google.com/file/d/14smArs39XjfoQeWRvrB46SlOzfvrUlu5/view">Watch this video to open virtual machine</a>
