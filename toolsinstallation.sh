@@ -50,7 +50,7 @@ sudo apt-get update --assume-yes
 sudo apt-get install docker-ce docker-ce-cli containerd.io --assume-yes
 
 cd "/home/vvi"
-su - "vvi" -c "git clone https://github.com/efabless/openlane.git;"
+su - "vvi" -c "git clone https://github.com/efabless/OpenLane.git;"
 cd "openlane/"
 sudo make openlane
     # Default PDK_ROOT is $(pwd)/pdks. If you want to install the PDK at a differnt location, #uncomment the next line.
