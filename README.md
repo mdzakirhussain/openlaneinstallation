@@ -16,7 +16,7 @@
 
 <a href="https://drive.google.com/file/d/14smArs39XjfoQeWRvrB46SlOzfvrUlu5/view">Watch this video to open virtual machine</a>
 
-Follow the following steps to install open source EDA tools
+<h4>Follow the following steps to install open source EDA tools</h4>
 
 1. on your Desktop open the terminal and then type cd and then press enter
 2. then type sudo apt-get clean
