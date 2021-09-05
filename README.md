@@ -4,17 +4,18 @@
 
 <ul><li>Email: zakir.hussain.work@gmail.com</li><b>OR</b><li>Mobile:+919949426362</li></ul>
 
-<b>First Download Oracle VM Virtualbox</b>
+<b>1. First Download Oracle VM Virtualbox</b>
 
 <a href="https://drive.google.com/file/d/19xzfCOasAnaMo3Ko1gZnNpvf6HuQ2pyY/view">Download Oracle VM Virtualbox</a>
 
-<b>Second Download this Virtual Machine</b>
+<b>2. Second Download this Virtual Machine</b>
 
 <a href="https://drive.google.com/drive/folders/1AfyLbUMrOOjMRa-fI9xr9lEOX8y7B3S7?usp=sharing">Download Virtualmachine UBUNTU</a>
 
-<b>Watch this video to open virtual machine</b>
+<b>3. Watch this video to open virtual machine</b>
 
 <a href="https://drive.google.com/file/d/14smArs39XjfoQeWRvrB46SlOzfvrUlu5/view">Watch this video to open virtual machine</a>
+
 Follow the following steps to install open source EDA tools
 
 1. on your Desktop open the terminal and then type cd and then press enter
