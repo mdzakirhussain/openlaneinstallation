@@ -27,7 +27,7 @@
 7. then type chmod 777 toolsinstallation.sh
 8. then type sudo ./toolsinstallation.sh
 
-<h4>NOTE</h4><br>
+<h4>NOTE</h4>
 If you are using your own installation of ubuntu virtual machine instead of provided ubuntu's virtual machine by me, then after step 6. in the above do the following<br>
 
 Type in the terminal <b>gedit toolinstallation.sh &</b> <br>This will open the file toolinstallation.sh, in that replace "vvi" with your user name.<br> If you are in doubt of user name, then in the terminal type echo $USER, it will return user name.<br>
