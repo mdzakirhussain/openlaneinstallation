@@ -28,8 +28,8 @@
 8. then type sudo ./toolsinstallation.sh
 
 <h4>NOTE</h4>
-If you are using your own installation of ubuntu virtual machine instead of provided ubuntu's virtual machine by me, then after step 6. in the above do the following<br>
+<ul><li>If you are using your own installation of ubuntu virtual machine instead of provided ubuntu's virtual machine by me, then after step 6. in the above do the following</li><br>
 
-Type in the terminal <b>gedit toolinstallation.sh &</b> <br>This will open the file toolinstallation.sh, in that replace "vvi" with your user name.<br> If you are in doubt of user name, then in the terminal type echo $USER, it will return user name.<br>
+  <li>Type in the terminal <b>gedit toolinstallation.sh &</b></li><br><li>This will open the file toolinstallation.sh, in that replace "vvi" with your user name.</li><br><li> If you are in doubt of user name, then in the terminal type echo $USER, it will return user name.</li><br>
 
-And then follow the above steps 7 and 8. That is it, you are done.
+<li>And then follow the above steps 7 and 8. That is it, you are done.</li></ul>
